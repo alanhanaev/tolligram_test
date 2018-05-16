@@ -1,0 +1,8 @@
+{
+    "redis": {
+        "host":"185.22.153.252",
+        "port":"6379",
+        "password":"hanik"
+    },
+    "server_port": 3100
+}

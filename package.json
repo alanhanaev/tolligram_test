@@ -1,0 +1,22 @@
+{
+  "name": "sample-api",
+  "version": "1.0.0",
+  "description": "URL: /get_user_info \r Json params: {\r     login: \"Логин прокси\",\r     password: \"Пароль прокси\",\r     host: \"Адрес прокси хоста\",\r     port: \"Адрес прокси порта\"\r     user_id: \"Идентификатор пользователя instagramm\"\r }\r Response:\r status code:200 \r {\r     success: true,\r     value: {\r         Объект с данными о пользователе instagramm\r     }\r }\r либо \r status code:200 \r {\r     success: false,\r     error_msg:\"\"\r }",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "dateformat": "^3.0.3",
+    "express": "^4.16.2",
+    "express-formidable": "^1.0.0",
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {}
+}
